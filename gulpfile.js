@@ -20,5 +20,5 @@ gulp.task('pcss_to_css', function () {
             extname: '.css'
         }))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('./dest'));
+        .pipe(gulp.dest('./dist'));
 });
