@@ -180,6 +180,13 @@ nav a:hover {
   width: 50vw;
 }
 
+.img-container a {
+    position: relative;
+    top: -2em;
+    font-size: 13px;
+    color: black;
+  }
+
 .img-container svg {
     width: 50%;
   }
@@ -457,12 +464,12 @@ footer {
   #features,
   #how-it-works,
   #pricing {
-    scroll-margin-top: 110px;
+    scroll-margin-top: 145px;
   }
 
   .logo-group {
     display: block;
-    justify-content: center;
+    text-align: center;
   }
 
     .logo-group a {
@@ -477,6 +484,10 @@ footer {
   .header-img {
     position: relative;
     top: 14px;
+  }
+
+  .img-container {
+    padding-top: 50px;
   }
 }
 
