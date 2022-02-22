@@ -1,1 +1,0 @@
-Demo landing page for Quanta Labs
